@@ -12,6 +12,7 @@
     background-color: var(--maize-crayola);
 
     font-size: 1.2rem;
+    border: 2px solid var(--persian-green);
 }
 
 
@@ -27,8 +28,12 @@
     color: var(--persian-green);
     cursor: pointer;
 }
-.task-completed {
+
+.green-text-line-through {
     text-decoration: line-through;
+    color: var(--persian-green);
+}
+.color-green {
     color: var(--persian-green);
 }
 
@@ -45,6 +50,7 @@
     margin-right: 10px;
 }
 .trash-icon:hover {
+
     cursor: pointer;
     color: red;
    
