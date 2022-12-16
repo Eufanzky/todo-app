@@ -1,0 +1,15 @@
+.todoSearch {
+    width: 80%;
+    max-width: 350px;
+    height: 50px;
+    background-color: var(--persian-green);
+    
+    border: 2px solid var(--charcoal);    
+
+    font-size: large;
+    padding-left: 18px;
+}
+.todoSearch::placeholder {
+    color: var(--charcoal);
+    font-weight: bolder;
+}
